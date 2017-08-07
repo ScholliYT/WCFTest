@@ -12,9 +12,6 @@ namespace WCFTest
     public interface ITestService
     {
         [OperationContract]
-        double getDoubledValue(double _value);
-
-        [OperationContract]
         double plus(double _a, double _b);
 
         [OperationContract]
@@ -25,8 +22,5 @@ namespace WCFTest
 
         [OperationContract]
         double geteilt(double _a, double _b);
-
-
     }
-
 }
