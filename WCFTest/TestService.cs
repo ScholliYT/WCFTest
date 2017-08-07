@@ -39,14 +39,7 @@ namespace WCFTest
 
         public double minus(double _a, double _b)
         {
-            if (_a > _b)
-            {
                 return _a - _b;
-            }
-            else
-            {
-                throw new Exception("Subtrahend darf nicht größer sein.");
-            }
         }
 
         public double plus(double _a, double _b)
