@@ -12,6 +12,21 @@ namespace WCFTest
     public interface ITestService
     {
         [OperationContract]
-        int getDoubledValue(int _value);
+        double getDoubledValue(double _value);
+
+        [OperationContract]
+        double plus(double _value);
+
+        [OperationContract]
+        double minus(double _value);
+
+        [OperationContract]
+        double mal(double _value);
+
+        [OperationContract]
+        double geteilt(double _value);
+
+
     }
+
 }
