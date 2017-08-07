@@ -14,5 +14,9 @@ namespace WCFTest
         {
             return value*2;
         }
+
+        public void test()
+            {
+}           }
     }
 }
