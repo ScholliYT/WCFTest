@@ -14,5 +14,44 @@ namespace WCFTest
         {
             return _value*2;
         }
+
+        public double getDoubledValue(double _value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double geteilt(double _a, double _b)
+        {
+            if (_b != 0)
+            {
+                return _a / _b;
+            }
+            else
+            {
+                throw new Exception("Teiler darf nicht null sein");
+            }
+        }
+
+        public double mal(double _a, double _b)
+        {
+            return _a * _b;
+        }
+
+        public double minus(double _a, double _b)
+        {
+            if (_a > _b)
+            {
+                return _a - _b;
+            }
+            else
+            {
+                throw new Exception("Subtrahend darf nicht größer sein.");
+            }
+        }
+
+        public double plus(double _a, double _b)
+        {
+            return _a + _b;
+        }
     }
 }
