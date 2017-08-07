@@ -15,16 +15,16 @@ namespace WCFTest
         double getDoubledValue(double _value);
 
         [OperationContract]
-        double plus(double _value);
+        double plus(double _a, double _b);
 
         [OperationContract]
-        double minus(double _value);
+        double minus(double _a, double _b);
 
         [OperationContract]
-        double mal(double _value);
+        double mal(double _a, double _b);
 
         [OperationContract]
-        double geteilt(double _value);
+        double geteilt(double _a, double _b);
 
 
     }
