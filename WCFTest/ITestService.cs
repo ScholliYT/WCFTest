@@ -12,6 +12,6 @@ namespace WCFTest
     public interface ITestService
     {
         [OperationContract]
-        int getDoubledValue(int value);
+        int getDoubledValue(int _value);
     }
 }
