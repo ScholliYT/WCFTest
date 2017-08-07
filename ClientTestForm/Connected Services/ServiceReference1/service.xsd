@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="plus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_a" type="xs:double" />
+        <xs:element minOccurs="0" name="_b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="plusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="plusResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="minus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_a" type="xs:double" />
+        <xs:element minOccurs="0" name="_b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="minusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="minusResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_a" type="xs:double" />
+        <xs:element minOccurs="0" name="_b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="malResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="malResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geteilt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_a" type="xs:double" />
+        <xs:element minOccurs="0" name="_b" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="geteiltResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="geteiltResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
