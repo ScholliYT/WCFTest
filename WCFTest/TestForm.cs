@@ -23,7 +23,7 @@ namespace WCFTest
             ServiceReference1.TestServiceClient client = new ServiceReference1.TestServiceClient();
 
             double answer;
-            answer = client.plus(txbWert1.Text, txbWert2.Text);
+            answer = client.plus(Double.Parse(txbWert1.Text), Double.Parse(txbWert2.Text));
             lblOutput.Text = answer;
         }
 
@@ -32,7 +32,7 @@ namespace WCFTest
             ServiceReference1.TestServiceClient client = new ServiceReference1.TestServiceClient();
 
             double answer;
-            answer = client.minus(txbWert1.Text, txbWert2.Text);
+            answer = client.minus(Double.Parse(txbWert1.Text), Double.Parse(txbWert2.Text));
             lblOutput.Text = answer;
         }
 
@@ -41,7 +41,7 @@ namespace WCFTest
             ServiceReference1.TestServiceClient client = new ServiceReference1.TestServiceClient();
 
             double answer;
-            answer = client.mal(txbWert1.Text, txbWert2.Text);
+            answer = client.mal(Double.Parse(txbWert1.Text), Double.Parse(txbWert2.Text));
             lblOutput.Text = answer;
         }
 
@@ -50,7 +50,7 @@ namespace WCFTest
             ServiceReference1.TestServiceClient client = new ServiceReference1.TestServiceClient();
 
             double answer;
-            answer = client.geteilt(txbWert1.Text, txbWert2.Text);
+            answer = client.geteilt(Double.Parse(txbWert1.Text), Double.Parse(txbWert2.Text));
             lblOutput.Text = answer;
         }
     }
