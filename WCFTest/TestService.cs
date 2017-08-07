@@ -12,7 +12,7 @@ namespace WCFTest
     {
 
         public double geteilt(double _a, double _b) {
-            if (_b != 0)
+            if (Math.Abs(_b) > 0)
             {
                 return _a / _b;
             }
