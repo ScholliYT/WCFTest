@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -72,7 +73,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 0);
+            this.label1.Location = new System.Drawing.Point(23, 5);
+            this.label1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 0;
@@ -83,7 +85,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(138, 0);
+            this.label2.Location = new System.Drawing.Point(138, 5);
+            this.label2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 1;
@@ -94,8 +97,9 @@
             this.txbWert1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txbWert1.Location = new System.Drawing.Point(25, 34);
             this.txbWert1.Margin = new System.Windows.Forms.Padding(5);
+            this.txbWert1.Multiline = true;
             this.txbWert1.Name = "txbWert1";
-            this.txbWert1.Size = new System.Drawing.Size(105, 20);
+            this.txbWert1.Size = new System.Drawing.Size(105, 19);
             this.txbWert1.TabIndex = 2;
             // 
             // txbWert2
@@ -103,8 +107,9 @@
             this.txbWert2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txbWert2.Location = new System.Drawing.Point(140, 34);
             this.txbWert2.Margin = new System.Windows.Forms.Padding(5);
+            this.txbWert2.Multiline = true;
             this.txbWert2.Name = "txbWert2";
-            this.txbWert2.Size = new System.Drawing.Size(105, 20);
+            this.txbWert2.Size = new System.Drawing.Size(105, 19);
             this.txbWert2.TabIndex = 3;
             // 
             // btnAdd
@@ -160,7 +165,8 @@
             this.lblOutput.AutoSize = true;
             this.lblOutput.Location = new System.Drawing.Point(23, 116);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(45, 13);
+            this.lblOutput.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.lblOutput.Size = new System.Drawing.Size(45, 23);
             this.lblOutput.TabIndex = 8;
             this.lblOutput.Text = "Output: ";
             // 
@@ -170,9 +176,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(270, 147);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(286, 186);
             this.Name = "Form1";
-            this.Text = "ClientTestForm";
+            this.Text = "Netzwerk Taschenrechner";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

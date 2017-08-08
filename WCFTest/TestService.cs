@@ -1,21 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.Text;
 
 namespace WCFTest
 {
     // HINWEIS: Mit dem Befehl "Umbenennen" im Menü "Umgestalten" können Sie den Klassennamen "TestService" sowohl im Code als auch in der Konfigurationsdatei ändern.
     public class TestService : ITestService
     {
-
-        public double geteilt(double _a, double _b) {
+        public double geteilt(double _a, double _b)
+        {
             if (Math.Abs(_b) > 0)
-            {
                 return _a / _b;
-            }
             throw new Exception("Teiler darf nicht null sein");
         }
 
@@ -26,7 +19,7 @@ namespace WCFTest
 
         public double minus(double _a, double _b)
         {
-                return _a - _b;
+            return _a - _b;
         }
 
         public double plus(double _a, double _b)

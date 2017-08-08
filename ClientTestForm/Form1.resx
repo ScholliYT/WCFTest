@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8Bf08thXtNLO13Syv/dkoq/3ZKKv92Sir/dkoq/3ZKKv92Sir/dkoq/3ZKKv93Syv/e00s7X9P
+        LYX///8Bg1Ivh4FXNP90VjT/aE4w/2hOL/9qUDH/a1Ex/2pQMf9qUDH/alAx/2pQMf9pTzD/aE0v/3RW
+        NP+BVzT/g1Ivg4NSL++AYDv/taiV/+jf1f/v6+T/8u7o//Ht5v/v6+T/7+rj//Ds5v/y7uj/8Ovk/+jf
+        1f+0p5T/gWA7/4NSL+2DUi//fmA8/+vk2//CtqT/mX9f/5d+Xf+QeFr/inNW/4hxVP+QeFn/mH9e/5qA
+        X//DtqT/6+Tc/39gPP+DUi//g1Iv/4BiPv/v6uP/jnVW/31aMv9wUi7/dFs9/52LdP+di3T/dVw+/29Q
+        LP9+WTH/jHNU/+/q4/+BZD//g1Iv/4NSL/+DZUD/8e3m/452V/91VTD/modv/+rl3f/08u3/9fLt/+zl
+        3f+Yhm3/dVUw/411Vv/x7eb/hGVB/4NSL/+DUi//hGVB//Lv6P+NdVf/f2ZG/+7n4P/NwbH/jW1F/41u
+        R//Pxbb/7ufg/4BmRv+Nd1n/8u/o/4VnQv+DUi//g1Iv/4dqRf/z7+n/iHJW/6GRe//v6uP/hGlH/49q
+        Pv+MZzv/gGVD//Dr4/+hkXv/iHJW//Lv6P+HakX/g1Iv/4NSL/+LbUf/8u7n/31qUf+Zi3b/7+je/3lg
+        Qv9+Xjf/fV43/3lfQP/x7eX/o5J7/4VwVf/z7+j/i21H/4NSL/+DUi//jXBK//Lt5v/s5Nr/7OTZ/+3l
+        2//Dt6j/b1k9/3BaPv/KwbL/9/Tw//v59v/39PD/9fLt/41wSv+DUi//g1Iv/45yTP/z7+j/7eXb/+3m
+        2//t5dv/7ubc/+/o3v/u6d//8+7n/4xwS/+UcET/im9K//j18f+Pc03/g1Iv/4NSL/+SdU//9fLs//Dp
+        3//v6N7/7+je/+/o3v/v6N7/7+je//Pv6P96Xjr/jGxC/35gO//59/P/k3ZP/4NSL/+DUi//m31W//f1
+        8f/18ev/9O/o//Tv6P/07+j/9O/o//Tv6P/28uz/f2dH/3peOv+CaUn/+ff1/5t8Vf+DUi//g1Iv76uO
+        af/SxbP/+/r4//z7+v/8+/n//Pv5//z7+f/8+/n//Pv6//z7+v/9/Pv/+/r4/9PGs/+tkGr/g1Iv8YNS
+        L4WYb0v/tpt3/7SZdv+1nHj/tp15/7WceP+1nXn/tZx4/7Wdef+1nHj/tZx4/7acef+1m3b/mG9L/4NS
+        L4f///8Bg1Ivh4NSL++DUi//g1Iv/4NSL/+DUi//g1Iv/4NSL/+DUi//g1Iv/4NSL/+DUi//g1Iv74NS
+        L4f///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//w==
+</value>
+  </data>
 </root>
