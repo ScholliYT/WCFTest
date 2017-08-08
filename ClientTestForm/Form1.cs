@@ -41,7 +41,7 @@ namespace ClientTestForm
             lblOutput.Text = "Output: " + answer;
         }
 
-        private void btndiv_Click(object sender, EventArgs e)
+        private void btnDiv_Click(object sender, EventArgs e)
         {
             WCFServer.TestServiceClient client = new WCFServer.TestServiceClient();
 
@@ -49,5 +49,39 @@ namespace ClientTestForm
             lblOutput.Text = "Output: " + answer;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbWert2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbWert1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMinus_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
