@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTestForm", "ClientTes
 		{A244250D-00CC-41EE-AFEF-6E1E5BF080E2} = {A244250D-00CC-41EE-AFEF-6E1E5BF080E2}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHosted", "SelfHosted\SelfHosted.csproj", "{F4152672-6A67-465C-9B3B-BA3439F61781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{DA82AC6F-4567-4328-A56A-49AB729574AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA82AC6F-4567-4328-A56A-49AB729574AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA82AC6F-4567-4328-A56A-49AB729574AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4152672-6A67-465C-9B3B-BA3439F61781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4152672-6A67-465C-9B3B-BA3439F61781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4152672-6A67-465C-9B3B-BA3439F61781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4152672-6A67-465C-9B3B-BA3439F61781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
